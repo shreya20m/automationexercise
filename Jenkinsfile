@@ -18,11 +18,11 @@ pipeline {
             }
         }
 
-        stage('Run Application') {
-            steps {
-                sh 'java -jar target/automationexercise-1.0-SNAPSHOT.jar'
-            }
-        }
+        //stage('Run Application') {
+            //steps {
+            //    sh 'java -jar target/automationexercise-1.0-SNAPSHOT.jar'
+          //  }
+        //}
     }
 
     post {
